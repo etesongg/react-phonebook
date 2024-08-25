@@ -14,14 +14,15 @@ import ContactItem from "./component/ContactItem"
 // 3. 리스트에 아이템이 몇개있는지 보인다
 // 4. 사용자가 유저를 이름검색으로 찾을 수 있다
 function App() {
-  return <div>
-    <h1 className="title">연락처</h1>
+  return <div className="font-Pretendard">
+    <h1 className="title font-Gmarket">My Phone Book</h1>
     <Container>
-      <Row>
-        <Col>
+      <Row style={{maxWidth: "90%"}}>
+        <Col lg={3} >
         <ContactForm />
         </Col>
-        <Col>
+        <Col lg={9} className="border border-contactList">
+        <h4 className="font-Gmarket">My Contact</h4>
         <ContactList />
         </Col>
       </Row>

@@ -1,3 +1,47 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-Pretendard {
+  font-family: 'Pretendard-Regular';
+}
+
+.font-Gmarket {
+  font-family: 'GmarketSansMedium';
+}
+
 .title {
   text-align: center;
+  margin: 20px;
 }
+
+.ContactForm-area {
+  max-width: 50%; 
+}
+
+.border {
+  border: 2px solid #333;
+  border-style: ridge;
+  padding: 3px;
+
+}
+.border-contactList {
+  height: auto;
+}
+
+.name {
+  font-weight: bold;
+}
+.add-button {
+  margin-bottom: 5px;
+}
+

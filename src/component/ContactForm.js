@@ -25,7 +25,7 @@ const ContactForm = () => {
         <Form.Control type="num" placeholder="전화번호를 입력해주세요." onChange={(event) => setPhoneNumber(event.target.value)}/>
       </Form.Group>
       
-      <Button variant="primary" type="submit">
+      <Button className='add-button' variant="primary" type="submit">
         추가
       </Button>
     </Form>

@@ -17,14 +17,14 @@ const SearchBox = () => {
     <div>
       <Form onSubmit={getSearchResult}>
         <Row>
-          <Col lg={10}>
+          <Col lg={10} sm={7} xs={8} style={{width:"50%"}}>
             <Form.Control
               type="text"
-              placeholder="찾으실 번호나 이름을 입력해주세요."
+              placeholder="찾으실 이름을 입력해주세요."
               onChange={(event) => setKeyword(event.target.value)}
-            />
+             />
           </Col>
-          <Col lg={2}>
+          <Col lg={2} sm={5} xs={4}>
             <Button type="submit">찾기</Button>
           </Col>
         </Row>
